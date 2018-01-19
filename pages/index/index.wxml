@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+<view class="backgroundIma_view"><image class="backgroundIma" animation="{{animationData}}" src='/pages/images/pattern.png'></image></view>
+  <view class='top_img_view'></view>
+    <image class='top_img' src="/pages/images/img_home_mask.png"></image>
+  <view class='top_message'>
+    <image class='info_img' src="/pages/images/img_home_info.png"></image>
+    <image class="nickPhoto" src="/pages/images/nickPhoto.jpg"></image>
+    <view class="nickName">这是昵称</view>
+    <image class='icon_king_yuan' src='/pages/images/icon_king_yuan.png'></image>
+    <view class='kingNumber'>2888</view>
+    <view class="progress_view">Lv.4</view>
+    <progress percent='80' stroke-width="10" activeColor="#8ea4e3" active="true"></progress>
+  </view>
+  <view class='left_side'>
+    <image class='paiweisai' bindtap="bindViewTap"  src='/pages/images/btn_home_challenge.png'></image>
+    <view></view>
+     <image class='shop' src='/pages/images/btn_home_shop.png'></image>
+      <image class='bank' src='/pages/images/btn_home_bank.png'></image>
+       <image class='knowledge' src='/pages/images/btn_home_knowledge.png'></image>
+       <image class='item' src='/pages/images/btn_home_item.png'></image>
+  </view>
+    <view class='right_side'>
+    <image class='ranking' src='/pages/images/btn_home_ranking.png'></image>
+    <image class='ranking' src='/pages/images/btn_home_livematch.png'></image>
+    <image class='topic' src='/pages/images/btn_home_topic.png'></image>
+    <image class='setting' src='/pages/images/btn_home_setting.png'></image>
+  </view>
+  <image class="dog_say_hi" src="/pages/images/dog_say_hi.gif"></image>
+</view>

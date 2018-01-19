@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/paiweishai/paiweishai",
+    "pages/loadpage/loadpage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#435fb7",
+    "navigationBarTitleText": "头脑风暴-知乎赛季",
+    "navigationBarTextStyle":"white"
+  }
+}

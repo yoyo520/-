@@ -1,0 +1,89 @@
+<view class="container">
+  <view class='top_img_view'></view>
+  <view class="backgroundIma_view"><image class="backgroundIma" animation="{{animationData}}" src='/pages/images/pattern.png'></image></view>
+  <view class='top_message'>
+    <image class='info_img' src="/pages/images/img_bg_season_1.png"></image>
+    <image class='icon_king_yuan' src='/pages/images/icon_king_yuan.png'></image>
+    <view class='kingNumber'>2888</view>
+    <view class="progress_view">Lv.4</view>
+    <progress percent='80' stroke-width="10" activeColor="#8ea4e3" active="true"></progress>
+    <view class="back_bar"></view>
+     
+  </view>
+  <view class="back_bar_down_1"><view class="back_bar_down"></view></view>
+  <scroll-view class="pingji">
+  <view class="pingji_tong" bindtap="bindViewTap">
+  <image class='tongpai' src='/pages/images/tong.png'></image>
+  <view class='pingji_tong_new'>起步熟手</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_white.png'></image>
+  </view>
+  </view>
+   <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tong1.png'></image>
+  <view class='pingji_tong_new'>坚韧黑铁</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_white.png'></image>
+   <image src='/pages/images/icon_star_white.png'></image>
+  </view>
+  </view>
+  <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tie.png'></image>
+  <view class='pingji_tong_new'>顽强青铜</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_white.png'></image>
+    <image src='/pages/images/icon_star_white.png'></image>
+      <image src='/pages/images/icon_star_white.png'></image>
+  </view>
+  </view>
+   <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tong.png'></image>
+  <view class='pingji_tong_new'>傲气白银</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_white.png'></image>
+  <image src='/pages/images/icon_star_white.png'></image>
+  <image src='/pages/images/icon_star_white.png'></image>
+  </view>
+  </view>
+  <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tong.png'></image>
+  <view class='pingji_tong_new'>聪慧黄金</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_white.png'></image>
+  <image src='/pages/images/icon_star_white.png'></image>
+  <image src='/pages/images/icon_star_white.png'></image>
+  </view>
+  </view>
+   <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tong.png'></image>
+  <view class='pingji_tong_new'>巧思白金</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  </view>
+  </view>
+   <view class="pingji_tong">
+  <image class='tongpai' src='/pages/images/tong.png'></image>
+  <view class='pingji_tong_new'>睿智黑金</view>
+  <image class='jinbi' src='/pages/images/icon_king_yuan.png'></image><view class='ruchangfei'>200</view>
+  <view class='xingxing'>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+   <image src='/pages/images/icon_star_black.png'></image>
+  <image src='/pages/images/icon_star_black.png'></image>
+  </view>
+  <view class='top_bg'><image src='/pages/images/icon_lock_challenge.png'></image></view>
+  </view>
+  <view class='more_than'><image src='/pages/images/icon_more_challenge.png'></image></view>
+  </scroll-view>
+</view>

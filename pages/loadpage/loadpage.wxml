@@ -1,0 +1,51 @@
+<!--对战前页面  -->
+<view class="Ko" animation="{{animationData5}}">
+<view class='Ko_side' animation="{{animationData}}">
+<image class="Ko_1" src='/pages/images/img_matching_earth.png'></image>
+<image class="Ko_2" src='/pages/images/img_matching_round_inside.png'></image>
+<image class='Ko_3'  src='/pages/images/img_matching_round_outside.png'></image>
+<image class='nickPhoto' src='/pages/images/nickPhoto.jpg'></image>
+<view class='nickName'>这是昵称</view>
+<view class='level_no'>Lv.12</view>
+<view class='ticket_yuan'>入场费:20</view>
+</view>
+<view class='Ko_lan' animation="{{animationData2}}">
+<image src='/pages/images/img_popup_user.png'></image>
+<image id='nickPhotonick'  src='/pages/images/nickPhoto.jpg'></image>
+<view class='nickName_blue'>这是昵称</view>
+<view class='palce_blue'>南京</view>
+<view class='level_no_blue'>Lv.12</view>
+<view class='ticket_yuan_blue'>入场费:20</view>
+<image id='xingxing' src='/pages/images/img_popup_user_decoration.png'></image>
+</view>
+<view class='Ko_hong' animation="{{animationData3}}">
+<image src='/pages/images/img_popup_match.png'></image>
+<image id='nickPhotonick_red'  src='/pages/images/nickPhoto.jpg'></image>
+<view class='nickName_red'>这是昵称</view>
+<view class='place_red'>蚌埠</view>
+<view class='level_no_red'>Lv.12</view>
+<view class='ticket_yuan_red'>入场费:20</view>
+<image id='diandain' src='/pages/images/img_popup_match_decoration.png'></image>
+</view>
+<view class='fengbao_logo' animation="{{animationData4}}"><image src='/pages/images/img_logo.png'></image></view>
+</view>
+<!--对战时页面  -->
+<view class='Ko_ing' animation="{{animationData6}}">
+<view class='Ko_ing_blue' animation="{{animationData7}}">
+<image src='/pages/images/nickPhoto.jpg'></image>
+<view class='Ko_ing_name'>这是昵称</view>
+</view>
+<view class='Ko_ing_red' animation="{{animationData8}}">
+<image src='/pages/images/nickPhoto.jpg'></image>
+<view class='Ko_ing_name_blue'>这是昵称</view>
+</view>
+<image class='bg_battle' animation="{{animationData9}}" src='/pages/images/bg_battle.png'></image>
+<view class='leixing' animation="{{animationData10}}" >
+<image src='/pages/images/img_title_question.png'></image>
+<view>体育</view>
+</view>
+<view class='leixing_number' animation="{{animationData11}}">
+第1题
+</view>
+<view class='top_bg'><image src='/pages/images/img_decoration.png'></image></view>
+</view>

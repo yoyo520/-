@@ -1,0 +1,180 @@
+/**index.wxss**/
+.container {
+  height: 1575rpx;
+}
+
+.backgroundIma {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundIma_view {
+  width: 100%;
+  height: 1575rpx;
+  overflow: hidden;
+  position: absolute;
+}
+
+.top_img {
+  width: 705rpx;
+  height: 50rpx;
+  position: fixed;
+  z-index: 10;
+  left: 25rpx;
+  top: -15rpx;
+}
+
+.top_img_view {
+  width: 100%;
+  height: 40rpx;
+  background: #435fb7;
+  position: fixed;
+  z-index: 0;
+}
+
+.top_message {
+  width: 100%;
+  height: 320rpx;
+}
+
+.info_img {
+  width: 700rpx;
+  height: 300rpx;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 10rpx;
+  left: 25rpx;
+  z-index: 1;
+}
+
+.nickPhoto {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 50rpx;
+  left: 325rpx;
+  z-index: 1;
+  border-radius: 100rpx;
+}
+
+progress {
+  width: 30%;
+  height: 50rpx;
+  position: absolute;
+  border-radius: 20rpx;
+  top: 250rpx;
+  left: 150rpx;
+  z-index: 1;
+}
+
+.progress_view {
+  position: absolute;
+  z-index: 1;
+  top: 255rpx;
+  left: 75rpx;
+  font-size: 30rpx;
+  color: #8ea4e3;
+  font-weight: 800;
+}
+
+.nickName {
+  width: 100%;
+  position: absolute;
+  top: 160rpx;
+  z-index: 1;
+  font-size: 20rpx;
+  color: white;
+  text-align: center;
+}
+
+.icon_king_yuan {
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 260rpx;
+  left: 475rpx;
+  z-index: 1;
+  border-radius: 100rpx;
+}
+
+.kingNumber {
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  font-size: 30rpx;
+  color: white;
+  left: 520rpx;
+  top: 260rpx;
+}
+
+.left_side {
+  float: left;
+  width: 50%;
+  height: 1240rpx;
+  position: absolute;
+   /* display: none;   */
+}
+
+.paiweisai {
+  width: 340rpx;
+  height: 370rpx;
+  margin-left: 25rpx;
+}
+
+.shop, .bank {
+  width: 340rpx;
+  height: 184rpx;
+  margin-left: 25rpx;
+}
+
+.knowledge {
+  width: 340rpx;
+  height: 280rpx;
+  margin-left: 25rpx;
+}
+
+.item {
+  width: 340rpx;
+  height: 180rpx;
+  margin-left: 25rpx;
+}
+
+.right_side {
+  width: 50%;
+  height: 1240rpx;
+  position: absolute;
+  right: 0;
+  /* display: none; */
+}
+
+.ranking {
+  width: 340rpx;
+  height: 280rpx;
+  margin-left: 10rpx;
+}
+
+.topic {
+  width: 340rpx;
+  height: 370rpx;
+  margin-left: 10rpx;
+}
+
+.setting {
+  width: 340rpx;
+  height: 280rpx;
+  margin-left: 10rpx;
+}
+.dog_say_hi{
+  position: fixed;
+  z-index: 12;
+  width: 100rpx;
+  height: 130rpx;
+  left: -10rpx;
+  top: 500rpx;
+}
