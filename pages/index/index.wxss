@@ -178,3 +178,83 @@ progress {
   left: -10rpx;
   top: 500rpx;
 }
+/*model*/
+.showModel{
+  width: 100%;
+  height: 100%;
+  /* background: black;
+  opacity: 0.5; */
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  overflow: hidden;
+   transform: scale(0)
+}
+.showModel_setting{
+  width: 300rpx;
+  height: 300rpx;
+  background: white;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  margin-top: 400rpx;
+  position: relative;
+  transform: scale(0)
+}
+.setting_model{
+  width:100rpx;
+  height:100rpx;
+  position:absolute;
+  top:-50rpx;
+  left:100rpx;
+}
+.setting_topic{
+  width: 100%;
+  height: 60rpx;
+  background:#4a80bf;
+  position: absolute;
+  top: 80rpx;
+  text-align: center;
+  color: white;
+  line-height: 60rpx;
+  font-size: 35rpx;
+}
+.body-view{
+  position: absolute;
+  top: 150rpx;
+  width: 100%;
+  height: 150rpx;
+}
+.body-view switch{
+width:45%;
+height:55rpx;
+float:right;
+margin-top:6rpx;
+}
+.body-view text{
+  color: #435fb7;
+line-height: 70rpx;
+font-size: 30rpx;
+margin-left: 53rpx;
+font-weight: 600
+}
+.wx-switch-input{
+  width:92rpx !important;
+  height:45rpx !important;
+}
+.wx-switch-input::before{
+  width:90rpx !important;
+  height: 41rpx !important;
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+  width: 50rpx !important;
+  height: 41rpx !important;
+}
+.close_icon{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+}

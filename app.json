@@ -1,13 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/paiweishai/paiweishai",
-    "pages/loadpage/loadpage"
+    "pages/loadpage/loadpage",
+    "pages/panghangbang/panghangbang",
+    "pages/person_info/person_info",
+    "pages/things/things",
+    "pages/topic/topic"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#435fb7",
     "navigationBarTitleText": "头脑风暴-知乎赛季",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   }
 }

@@ -1,0 +1,82 @@
+<view class="container">
+  <view class="backgroundIma_view"><image class="backgroundIma" animation="{{animationData}}" src='/pages/images/pattern.png'></image></view>
+<view class="top_section" animation="{{animationData1}}">
+<view class='paihang'>
+<view class="friend_pai">好友排行</view>
+<view class='world_pai'>世界排行</view>
+</view>
+ </view>
+ <view class='paiming' style='display:block' >
+
+ <view animation="{{animationData6}}" class='paiming1' bindtap="ontabview">
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+ 
+ <view animation="{{animationData6}}" class='paiming1'>
+ <image src='/pages/images/img_ranking_list_blue.png' class='last'></image>
+ <view class='paiming2'><image src='/pages/images/nickPhoto.jpg'></image></view>
+ <view class='paiming3'>这是昵称</view>
+  <view class='paiming4'>这是段位</view>
+  <view class='paiming5'><image src='/pages/images/icon_star_default.png'></image>2</view>
+ </view>
+ </view>
+ <view class="back_bar" animation="{{animationData3}}"></view>
+   <view class="back_bar_down_1" animation="{{animationData2}}"><view class="back_bar_down"  animation="{{animationData3}}"></view></view>
+   <view class='bottom_bg' animation="{{animationData4}}">
+   <image src='/pages/images/btn_last_season.png'></image>
+   </view>
+   <view class="back_bar_bottom" animation="{{animationData3}}"></view>
+    <view class="back_bar_down_1_bottom" animation="{{animationData5}}"><view class="back_bar_down_bottom" animation="{{animationData3}}"></view></view>
+</view>

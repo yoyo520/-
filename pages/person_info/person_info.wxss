@@ -1,0 +1,89 @@
+.top_bar{
+  width: 100%;
+  height: 70rpx;
+  background:#435fb7;
+}
+.top_img{
+  width:100%;
+  height:750rpx;
+  position:absolute;
+  top:0;
+}
+.img_bgtop{
+  width:95%;
+  height:100%;
+  margin-left:20rpx;
+}
+.top_nickPhoto{
+  position:absolute;
+  width:100rpx;
+  height:100rpx;
+  left:316rpx;
+  top:40rpx;
+  border-radius:100rpx;
+}
+.info_level{
+  position: absolute;
+  top: 180rpx;
+  width: 200rpx;
+  color: white;
+  font-size: 30rpx;
+  left:50rpx;
+}
+.progress_bar{
+  width:200rpx;
+  height:20rpx;
+  border:1px solid white;
+  position:absolute;
+  top:190rpx;
+  background:white;
+  left:140rpx;
+  border-radius:20rpx 20rpx;
+}
+.progress_bar_bei{
+  width:30%;
+  height:16rpx;
+  border:1px solid white;
+  position:absolute;
+  /* top:177rpx; */
+  background:#84b3ff;
+  /* left:140rpx; */
+  border-radius:20rpx 20rpx;
+}
+.net_img{
+position:absolute;
+top:300rpx;
+left:170rpx;
+}
+.net_img image{
+  width: 400rpx;
+  height: 400rpx;
+}
+.bottom_lable{
+    width:93.7%;
+    height:457rpx;
+    background:#4362bb;
+    position:absolute;
+    top:750rpx;
+    left:24rpx;
+}
+.info_bottom{
+  width: 400rpx;
+  height: 40rpx;
+  background:#4452a3;
+  margin-left: 150rpx;
+  border-radius: 30rpx 30rpx;
+  margin-top:15rpx; 
+  font-size: 20rpx;
+  color:white
+}
+.info_bottom text{
+  margin:7rpx 13rpx 7rpx 13rpx;
+  display:block;
+  float:left;
+  width:177rpx;
+}
+.info_bottom text:nth-child(2){
+  width: 0;
+  margin: 0;
+}

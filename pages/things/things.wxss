@@ -1,0 +1,9 @@
+.things{
+  width: 100%;
+  height: 1200rpx;
+  background: #4352a3;
+}
+.things image{
+  width: 100%;
+  height: 920rpx;
+}

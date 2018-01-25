@@ -1,0 +1,15 @@
+<view>
+<view class='top_bar'></view>
+<view class='top_img'>
+<image src='/pages/images/bg_info_up.png' class='img_bgtop'></image>
+<image src='/pages/images/nickPhoto.jpg' class='top_nickPhoto'></image>
+<view class="info_level">Lv.14</view>
+<view class='progress_bar'><view class="progress_bar_bei"></view></view>
+<view class='net_img'><image src='/pages/images/img_info_coordinate.png'></image></view>
+</view>
+<view class='bottom_lable'>
+<view class='info_bottom'><text>用户ID：12345678</text><text>|</text><text>段位：巧思白金</text></view>
+<view class='info_bottom'><text>胜率：50%</text><text>|</text><text>总场次：98</text></view>
+<view class='info_bottom'><text>经验：123/456</text><text>|</text><text>胜场：48</text></view>
+</view>
+</view>

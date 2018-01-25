@@ -47,5 +47,38 @@
 <view class='leixing_number' animation="{{animationData11}}">
 第1题
 </view>
-<view class='top_bg'><image src='/pages/images/img_decoration.png'></image></view>
+<view class='top_bg'  animation="{{animationData12}}"><image src='/pages/images/img_decoration.png'></image></view>
+<view class="bg_progress" animation="{{animationData13}}">
+<view class="circleProgress_wrapper">
+        <view class="wrapper right">
+            <view class="circleProgress rightcircle"></view>
+        </view>
+        <view class="wrapper left">
+            <view class="circleProgress leftcircle"></view>
+        </view>
+ </view>
+ <view class="bg_progress_small">{{second}}</view>
+</view>
+<view class="topic_one" animation="{{animationData14}}">著名的“美国职业篮球联赛”简称是？</view>
+<view class="pregress_title" animation="{{animationData15}}">
+<text>300</text>
+<view class="pregress_title_out">
+<view class="pregress_title_in">
+</view>
+</view>
+</view>
+
+<view class="pregress_title_right" animation="{{animationData16}}">
+<text>300</text>
+<view class="pregress_title_out">
+<view class="pregress_title_in">
+</view>
+</view>
+</view>
+<view class="pregress_title_topic">
+<text animation="{{animationData17}}" bindtap="changeColor" style="background-color:{{pageBackgroundColor}};">CBA</text>
+<text animation="{{animationData17}}">NBA</text>
+<text animation="{{animationData17}}">NFL</text>
+<text animation="{{animationData17}}">SKL</text>
+</view>
 </view>

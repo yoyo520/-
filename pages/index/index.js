@@ -4,7 +4,13 @@ const app = getApp()
 
 Page({
   data: {
-    animationDate:{}
+    animationDate: {}, 
+    animationData4:{},
+    animationData5:{},
+    animationData6:{},
+    animationData7:{},
+    flag:true,
+    flag1:true,
   },
   onShow: function () {
     var animation = wx.createAnimation({
@@ -24,8 +30,90 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '/pages/paiweishai/paiweishai'
+      url: '/pages/paiweishai/paiweishai',
     })
+  },
+  bindPaitap:function(){
+    wx.navigateTo({
+      url: '/pages/panghangbang/panghangbang',
+    })
+  },
+  bindThings: function () {
+    wx.navigateTo({
+      url: '/pages/things/things',
+    })
+  },
+  bindTopic: function () {
+    wx.navigateTo({
+      url: '/pages/topic/topic',
+    })
+  },
+  show_model:function(){
+     console.log(3);
+     console.log(this.data.flag1);
+    var animation = wx.createAnimation({
+      duration: 300,
+      timingFunction: 'ease',
+    });
+    if (this.data.flag1 == true) {
+      console.log("qqqqq")
+      this.setData({
+        animationData4: animation.scale(1.3).step().scale(1).step().export(),
+        flag: false
+      })
+    } else if (this.data.flag1 == false) {
+      this.setData({
+        animationData4: animation.scale(0).step().export(),
+        flag: true
+      })
+    }
+
+  },
+  show_model_bg: function () { 
+    console.log(2)
+    var animation = wx.createAnimation({
+      duration: 0,
+      timingFunction: 'ease-in',
+    });
+    // this.animation=animation;
+    console.log(this.data.flag);
+    if(this.data.flag==true){
+      console.log("wwwww");
+      this.setData({
+        animationData5: animation.scale(1).step().export(),
+        flag: false
+      })
+    } else if (this.data.flag==false){
+      console.log("zzzz");
+      this.setData({
+        animationData5: animation.scale(0).step().export(),
+        flag: true
+      })
+    }
+
+  },
+  circle_model: function () {
+    console.log("cccc");
+    var animation = wx.createAnimation({
+      duration: 500,
+      timingFunction: 'ease',
+    }); 
+  this.animation=animation;
+    this.setData({
+      animationData7: animation.rotate("180deg").step().export()
+    });
+  },
+  bindClick: function () {
+    console.log(1);
+    this.show_model_bg();
+    setTimeout(function(){
+      this.show_model();
+    }.bind(this),10);
+      this.circle_model();
+  },
+  bindClickclose: function () {
+    console.log('cccc');
+    this.show_model_bg();
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
