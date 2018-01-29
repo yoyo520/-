@@ -2,6 +2,9 @@
 .container {
   height: 1575rpx;
 }
+page{
+  overflow-x: hidden;
+}
 
 .backgroundIma {
   z-index: -1;

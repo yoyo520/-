@@ -1,7 +1,14 @@
+page{
+  overflow: hidden;
+  width: 375px;
+}
 .Ko{
   width: 100%;
   height: 1200rpx;
-  background: #4354a6
+  background: #4354a6;
+}
+.out{
+  overflow: hidden;
 }
 .Ko_1{
   width: 600rpx;
@@ -421,6 +428,13 @@ border-radius:20rpx 20rpx;
 position:relative;
 left:30rpx;
 }
+/* .pregress_title_topic_out{
+  width:60%;
+  height:500rpx;
+  position:absolute;
+  left:150rpx;
+  top:600rpx;
+} */
 .pregress_title_in{
   width: 100%;
   height: 30%;
@@ -428,6 +442,7 @@ left:30rpx;
   border-radius: 20rpx 20rpx;
   position: absolute;
   bottom: 0;
+  animation: height 2s;
 }
 .pregress_title text{
  display: block;

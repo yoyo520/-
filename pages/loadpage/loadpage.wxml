@@ -1,3 +1,5 @@
+<view class="out" style="overflow: hidden;width:375px;height:600px;position:relative">
+
 <!--对战前页面  -->
 <view class="Ko" animation="{{animationData5}}">
 <view class='Ko_side' animation="{{animationData}}">
@@ -59,11 +61,15 @@
  </view>
  <view class="bg_progress_small">{{second}}</view>
 </view>
-<view class="topic_one" animation="{{animationData14}}">著名的“美国职业篮球联赛”简称是？</view>
+<view class="topic_one" animation="{{animationData14}}" >著名的“美国职业篮球联赛”简称是？</view>
+<view class="topic_one" animation="{{animationData28}}" style='background:#4354a6'>歌曲《我的太阳》的原唱是意大利的那位著名歌曲？</view>
+<view class="topic_one" animation="{{animationData30}}" style='background:#4354a6'>四大名著的作者是？？</view>
 <view class="pregress_title" animation="{{animationData15}}">
 <text>300</text>
 <view class="pregress_title_out">
-<view class="pregress_title_in">
+<view class="pregress_title_in" animation="{{animationData18}}" >
+</view>
+<view class="pregress_title_in" animation="{{animationData23}}" >
 </view>
 </view>
 </view>
@@ -71,14 +77,37 @@
 <view class="pregress_title_right" animation="{{animationData16}}">
 <text>300</text>
 <view class="pregress_title_out">
-<view class="pregress_title_in">
+<view class="pregress_title_in" animation="{{animationData19}}">
+</view>
+<view class="pregress_title_in" animation="{{animationData24}}">
 </view>
 </view>
 </view>
-<view class="pregress_title_topic">
-<text animation="{{animationData17}}" bindtap="changeColor" style="background-color:{{pageBackgroundColor}};">CBA</text>
+<!--第一题  -->
+<view class="pregress_title_topic" animation="{{animationData20}}">
+<text animation="{{animationData17}}" bindtap="changeColor" style="background-color:{{pageBackgroundColor}};color:{{pageColor}};transform:{{scale1}}">CBA</text>
 <text animation="{{animationData17}}">NBA</text>
 <text animation="{{animationData17}}">NFL</text>
 <text animation="{{animationData17}}">SKL</text>
+</view>
+<!--第一题  -->
+<!--第二题  -->
+<view class="pregress_title_topic_out" animation="{{animationData25}}" >
+<view class="pregress_title_topic" animation="{{animationData22}}"  style='transform:scale(0)'>
+<text animation="{{animationData21}}">戴玉强</text>
+<text animation="{{animationData21}}" bindtap="changeColor2" style="background-color:{{pageBackgroundColor1}};color:{{pageColor1}};transform:{{scale2}}">卡雷拉斯</text>
+<text animation="{{animationData21}}">多明戈</text>
+<text animation="{{animationData21}}">帕瓦罗蒂</text>
+</view>
+</view>
+<!--第二题  -->
+<!--第三题  -->
+ <view class="pregress_title_topic" animation="animationData27" style='background:#4354a6;transform:scale(0)'>
+<text animation="{{animationData26}}">杨万里</text>
+<text animation="{{animationData26}}">曾巩</text>
+<text animation="{{animationData26}}" bindtap="changeColor3" style="background-color:{{pageBackgroundColor2}};color:{{pageColor2}};transform:{{scale3}}">韩愈</text>
+<text animation="{{animationData26}}">柳宗元</text>
+</view> 
+<!--第三题  -->
 </view>
 </view>

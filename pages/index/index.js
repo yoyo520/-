@@ -90,7 +90,6 @@ Page({
         flag: true
       })
     }
-
   },
   circle_model: function () {
     console.log("cccc");
@@ -98,9 +97,8 @@ Page({
       duration: 500,
       timingFunction: 'ease',
     }); 
-  this.animation=animation;
     this.setData({
-      animationData7: animation.rotate("180deg").step().export()
+      animationData7: animation.rotateY("180deg").step().export()
     });
   },
   bindClick: function () {

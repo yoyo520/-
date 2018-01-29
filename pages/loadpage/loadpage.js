@@ -19,6 +19,26 @@ Page({
     animationDate15:null,
     animationDate16:null,
     animationDate17: null,
+    pageBackgroundColor:'white',
+    pageColor:'#4354a6',
+    // pageBackgroundColor1: 'white',
+    // pageColor1: '#4354a6',
+    animationData18:null,
+    animationData19: null,
+    animationData20:null,
+    animationData21:null,
+    animationData22:null,
+    animationData23: null,
+    animationData24: null,
+    dataHeight1:0,
+    dataHeight:0,
+    animationData25:null,
+    animationData26: null,
+    animationData27: null,
+    animationData28: null,
+    animationData29: null,
+    animationData30: null,
+    animationData31: null,
   },
   ontab:function(){
    
@@ -269,12 +289,209 @@ Page({
       });
     }.bind(this), 4200)
   },
+  // 第一题
   changeColor: function () {
-    var bgColor = this.data.pageBackgroundColor == 'white' ? '#69bf28' : 'white';
-    
+    // var bgColor = this.data.pageBackgroundColor;
+    // var gcolor=this.data.pageColor;
     this.setData({
-      pageBackgroundColor: bgColor,
-      
+      pageBackgroundColor: '#69bf28',
+      pageColor: "white",
+      scale1:"scale(1)",
     });
+    setTimeout(function(){
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      // var dataHeight1 = data.dataHeight1;
+      this.setData({
+        animationData18: animation.height("60%").step().export()
+        //dataHeight1: this.dataHeight1+30
+      }); 
+    }.bind(this),200);
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+       animationData19: animation.height("45%").step().export()
+        //dataHeight: this.dataHeight + 20
+      });
+    }.bind(this), 600);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData20: animation.scale(0).step().height(0).step().export()
+      });
+    }.bind(this), 1200);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData21: animation.scale(1.1).step().scale(1).step().export()
+      });
+      var animation = wx.createAnimation({
+        duration: 0,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData22: animation.scale(1).step().export()
+      });
+    }.bind(this), 1200)
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData21: animation.scale(1.1).step().scale(1).step().export()
+      });
+    }.bind(this), 2000);
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 300,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData28: animation.width("70%").step().opacity(1).step().export()
+      });
+    }.bind(this), 2200);
+
+  },
+    // 第二题
+  changeColor2:function(){
+    this.setData({
+      pageBackgroundColor1: '#69bf28',
+      pageColor1: "white",
+      scale2: "scale(1)",
+    });
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData23: animation.height("70%").step().export()
+      });
+    }.bind(this), 200);
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData24: animation.height("60%").step().export()
+      });
+    }.bind(this), 600);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData25: animation.scale(0).step().height(0).step().export()
+      });
+    }.bind(this), 1200);
+
+    setTimeout(function () {
+        var animation = wx.createAnimation({
+          duration: 0,
+          timingFunction: 'linear-in',
+        });
+        this.setData({
+          animationData27: animation.scale(1).step().export()
+        });
+        var animation = wx.createAnimation({
+          duration: 600,
+          timingFunction: 'linear-in',
+        });
+        this.setData({
+          animationData26: animation.scale(1.1).step().scale(1).step().export()
+        });
+    }.bind(this), 1000)
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData30:animation.scale(1.1).step().scale(1).step().export()
+      });
+    }.bind(this), 1600)
+  },
+
+
+  // 第三题
+  changeColor3: function () {
+    // this.setData({
+    //   pageBackgroundColor1: '#69bf28',
+    //   pageColor1: "white",
+    //   scale2: "scale(1)",
+    // });
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        //dataHeight: this.dataHeight + 20
+        animationData31: animation.height("80%").step().export()
+      });
+    }.bind(this), 200);
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        //dataHeight1: this.dataHeight1 + 20
+        animationData32: animation.height("75%").step().export()
+      });
+    }.bind(this), 600);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 500,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData33: animation.scale(0).step().height(0).step().export()
+      });
+    }.bind(this), 1200);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData34: animation.scale(1.1).step().scale(1).step().export()
+      });
+      var animation = wx.createAnimation({
+        duration: 0,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData35: animation.scale(1).step().export()
+      });
+    }.bind(this), 1000)
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });
+      this.setData({
+        animationData30: animation.scale(1.1).step().scale(1).step().export()
+      });
+    }.bind(this), 1600)
   }
 })
