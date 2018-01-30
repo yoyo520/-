@@ -46,8 +46,23 @@
 <image src='/pages/images/img_title_question.png'></image>
 <view>体育</view>
 </view>
+<view class='leixing' animation="{{animationData40}}" >
+<image src='/pages/images/img_title_question.png'></image>
+<view>文学</view>
+</view>
+
+<view class='leixing' animation="{{animationData51}}" >
+<image src='/pages/images/img_title_question.png'></image>
+<view>技术</view>
+</view>
 <view class='leixing_number' animation="{{animationData11}}">
 第1题
+</view>
+<view class='leixing_number' animation="{{animationData41}}">
+第2题
+</view>
+<view class='leixing_number' animation="{{animationData50}}">
+第3题
 </view>
 <view class='top_bg'  animation="{{animationData12}}"><image src='/pages/images/img_decoration.png'></image></view>
 <view class="bg_progress" animation="{{animationData13}}">
@@ -62,14 +77,19 @@
  <view class="bg_progress_small">{{second}}</view>
 </view>
 <view class="topic_one" animation="{{animationData14}}" >著名的“美国职业篮球联赛”简称是？</view>
+
 <view class="topic_one" animation="{{animationData28}}" style='background:#4354a6'>歌曲《我的太阳》的原唱是意大利的那位著名歌曲？</view>
+
 <view class="topic_one" animation="{{animationData30}}" style='background:#4354a6'>四大名著的作者是？？</view>
+
 <view class="pregress_title" animation="{{animationData15}}">
 <text>300</text>
 <view class="pregress_title_out">
 <view class="pregress_title_in" animation="{{animationData18}}" >
 </view>
 <view class="pregress_title_in" animation="{{animationData23}}" >
+</view>
+<view class="pregress_title_in" animation="{{animationData31}}" >
 </view>
 </view>
 </view>
@@ -80,6 +100,8 @@
 <view class="pregress_title_in" animation="{{animationData19}}">
 </view>
 <view class="pregress_title_in" animation="{{animationData24}}">
+</view>
+<view class="pregress_title_in" animation="{{animationData32}}">
 </view>
 </view>
 </view>
@@ -102,7 +124,7 @@
 </view>
 <!--第二题  -->
 <!--第三题  -->
- <view class="pregress_title_topic" animation="animationData27" style='background:#4354a6;transform:scale(0)'>
+ <view class="pregress_title_topic" animation="{{animationData27}}" style='background:#4354a6;transform:scale(0)'>
 <text animation="{{animationData26}}">杨万里</text>
 <text animation="{{animationData26}}">曾巩</text>
 <text animation="{{animationData26}}" bindtap="changeColor3" style="background-color:{{pageBackgroundColor2}};color:{{pageColor2}};transform:{{scale3}}">韩愈</text>

@@ -192,7 +192,7 @@ Page({
           timingFunction: 'linear-in',
         });
         this.setData({
-          animationData10: animation.top("12%").step().export()
+          animationData10: animation.top("15%").step({ duration: 500}).export()
         });
       }.bind(this), 2500)
   },
@@ -216,7 +216,7 @@ Page({
           timingFunction: 'linear-in',
         });
         this.setData({
-          animationData11: animation.translateX("-49.5%").translateY("-42%").top("42%").scale(22).step().scale(20).step({ duration: 500 }).scale(0).opacity(0).step({ duration: 500 }).export(),
+          animationData11: animation.scale(1.3).step().scale(1).step().scale(0).opacity(0).step({ duration: 500 }).export(),
         });
       }.bind(this), 2500)
   },
@@ -303,7 +303,7 @@ Page({
         duration: 500,
         timingFunction: 'linear-in',
       });
-      // var dataHeight1 = data.dataHeight1;
+      // var dataHeight1 = data.dataHeight1;                //左进度
       this.setData({
         animationData18: animation.height("60%").step().export()
         //dataHeight1: this.dataHeight1+30
@@ -312,7 +312,7 @@ Page({
     setTimeout(function () {
       var animation = wx.createAnimation({
         duration: 500,
-        timingFunction: 'linear-in',
+        timingFunction: 'linear-in',         //右进度
       });
       this.setData({
        animationData19: animation.height("45%").step().export()
@@ -324,46 +324,75 @@ Page({
       var animation = wx.createAnimation({
         duration: 500,
         timingFunction: 'linear-in',
-      });
+      });                                                          //本题消失
       this.setData({
         animationData20: animation.scale(0).step().height(0).step().export()
       });
-    }.bind(this), 1200);
+    }.bind(this), 1600);
+
+    setTimeout(
+      function () {
+        var animation = wx.createAnimation({
+          duration: 1000,
+          timingFunction: 'linear-in',
+        });
+        this.setData({                                               //类型
+          animationData40: animation.top("15%").step({ duration: 500 }).top("17%").opacity(0).step().top("-7%").step().export()
+        });
+      }.bind(this), 1500);
+
+
+    setTimeout(
+      function () {
+        var animation = wx.createAnimation({
+          duration: 1000,
+          timingFunction: 'linear-in',                 //题数
+        });
+        this.setData({
+          animationData41: animation.scale(1.3).step().scale(1).step().scale(0).opacity(0).step({ duration: 500 }).export(),
+        });
+      }.bind(this), 1500)
+
+
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 300,
+        timingFunction: 'linear-in',
+      });                                             //题目
+      this.setData({
+        animationData28: animation.width("70%").step().opacity(1).step().export()
+      });
+    }.bind(this), 1500);
+
+
 
     setTimeout(function () {
       var animation = wx.createAnimation({
         duration: 600,
         timingFunction: 'linear-in',
+      });                                                     //   选项出现
+      this.setData({
+        animationData21: animation.scale(1.1).step().scale(1).step().export()
+      });
+    }.bind(this), 2000);
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 800,
+        timingFunction: 'linear-in',
       });
       this.setData({
         animationData21: animation.scale(1.1).step().scale(1).step().export()
       });
       var animation = wx.createAnimation({
-        duration: 0,
+        duration: 0,                                         //   下一题
         timingFunction: 'linear-in',
       });
       this.setData({
         animationData22: animation.scale(1).step().export()
       });
-    }.bind(this), 1200)
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 600,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData21: animation.scale(1.1).step().scale(1).step().export()
-      });
-    }.bind(this), 2000);
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 300,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData28: animation.width("70%").step().opacity(1).step().export()
-      });
-    }.bind(this), 2200);
+    }.bind(this), 2200)
 
   },
     // 第二题
@@ -371,14 +400,14 @@ Page({
     this.setData({
       pageBackgroundColor1: '#69bf28',
       pageColor1: "white",
-      scale2: "scale(1)",
+      scale2: "scale(1)",                //切换选项背景
     });
     setTimeout(function () {
       var animation = wx.createAnimation({
         duration: 500,
         timingFunction: 'linear-in',
       });
-      this.setData({
+      this.setData({                                          //左得分条
         animationData23: animation.height("70%").step().export()
       });
     }.bind(this), 200);
@@ -386,7 +415,7 @@ Page({
       var animation = wx.createAnimation({
         duration: 500,
         timingFunction: 'linear-in',
-      });
+      });                                                         //右得分条
       this.setData({
         animationData24: animation.height("60%").step().export()
       });
@@ -397,16 +426,50 @@ Page({
         duration: 500,
         timingFunction: 'linear-in',
       });
-      this.setData({
+      this.setData({                                             //第二题消失
         animationData25: animation.scale(0).step().height(0).step().export()
       });
-    }.bind(this), 1200);
+    }.bind(this), 1600);
+  
+    setTimeout(
+      function () {
+        var animation = wx.createAnimation({
+          duration: 1000,
+          timingFunction: 'linear-in',
+        });
+        this.setData({                                               //类型
+          animationData51: animation.top("15%").step({ duration: 500 }).top("17%").opacity(0).step().top("-7%").step().export()
+        });
+      }.bind(this), 1200);
+
+    setTimeout(
+      function () {
+        var animation = wx.createAnimation({
+          duration: 1000,
+          timingFunction: 'linear-in',                 //题数
+        });
+        this.setData({
+          animationData50: animation.opacity(1).scale(1.3).step().scale(1).step().scale(0).opacity(0).step({ duration: 500 }).export(),
+        });
+      }.bind(this), 1200)
+
+    setTimeout(function () {
+      var animation = wx.createAnimation({
+        duration: 600,
+        timingFunction: 'linear-in',
+      });                                                                    //第三题题目出现         
+      this.setData({
+        animationData30: animation.width("70%").height("100rpx").step().opacity(1).step().export()
+      });
+    }.bind(this), 1200)
+
 
     setTimeout(function () {
         var animation = wx.createAnimation({
           duration: 0,
           timingFunction: 'linear-in',
-        });
+        });     
+        console.log(11111);                                                   //第三题出现
         this.setData({
           animationData27: animation.scale(1).step().export()
         });
@@ -415,36 +478,28 @@ Page({
           timingFunction: 'linear-in',
         });
         this.setData({
-          animationData26: animation.scale(1.1).step().scale(1).step().export()
+          animationData26: animation.scale(1.1).step().scale(1).step().export()    //第三题选项出现
         });
-    }.bind(this), 1000)
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 600,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData30:animation.scale(1.1).step().scale(1).step().export()
-      });
     }.bind(this), 1600)
+
   },
 
 
   // 第三题
   changeColor3: function () {
-    // this.setData({
-    //   pageBackgroundColor1: '#69bf28',
-    //   pageColor1: "white",
-    //   scale2: "scale(1)",
-    // });
+    this.setData({
+      pageBackgroundColor2: '#69bf28',
+      pageColor2: "white",                      //选项变色
+      scale3: "scale(1)",
+    });
     setTimeout(function () {
       var animation = wx.createAnimation({
         duration: 500,
         timingFunction: 'linear-in',
       });
-      this.setData({
+      this.setData({                                       //左进度条
         //dataHeight: this.dataHeight + 20
-        animationData31: animation.height("80%").step().export()
+        animationData31: animation.height("90%").step().export()
       });
     }.bind(this), 200);
     setTimeout(function () {
@@ -453,45 +508,54 @@ Page({
         timingFunction: 'linear-in',
       });
       this.setData({
-        //dataHeight1: this.dataHeight1 + 20
-        animationData32: animation.height("75%").step().export()
+        //dataHeight1: this.dataHeight1 + 20                        //右进度条
+        animationData32: animation.height("85%").step().export()
       });
     }.bind(this), 600);
+    
+    setTimeout(function () {
+      wx.navigateTo({
+        url: '/pages/jieguo/jieguo',
+      })
+    }.bind(this), 2000);
 
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 500,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData33: animation.scale(0).step().height(0).step().export()
-      });
-    }.bind(this), 1200);
 
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 600,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData34: animation.scale(1.1).step().scale(1).step().export()
-      });
-      var animation = wx.createAnimation({
-        duration: 0,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData35: animation.scale(1).step().export()
-      });
-    }.bind(this), 1000)
-    setTimeout(function () {
-      var animation = wx.createAnimation({
-        duration: 600,
-        timingFunction: 'linear-in',
-      });
-      this.setData({
-        animationData30: animation.scale(1.1).step().scale(1).step().export()
-      });
-    }.bind(this), 1600)
+    // setTimeout(function () {
+    //   var animation = wx.createAnimation({
+    //     duration: 500,
+    //     timingFunction: 'linear-in',
+    //   });
+    //   this.setData({                                         //第三题消失
+    //     animationData33: animation.scale(0).step().height(0).step().export()
+    //   });
+    // }.bind(this), 1200);
+
+    // setTimeout(function () {
+
+    //   var animation = wx.createAnimation({
+    //     duration: 0,
+    //     timingFunction: 'linear-in',
+    //   });
+    //   this.setData({                                       //第四题出现
+    //     animationData35: animation.scale(1).step().export()
+    //   });
+
+    //   var animation = wx.createAnimation({
+    //     duration: 600,
+    //     timingFunction: 'linear-in',
+    //   });                                                       //第四题选项出现
+    //   this.setData({
+    //     animationData34: animation.scale(1.1).step().scale(1).step().export()
+    //   });
+    // }.bind(this), 1000)
+    // setTimeout(function () {
+    //   var animation = wx.createAnimation({
+    //     duration: 600,
+    //     timingFunction: 'linear-in',
+    //   });                                                       //第四题题目出现
+    //   this.setData({
+    //     animationData30: animation.scale(1.1).step().scale(1).step().export()
+    //   });
+    // }.bind(this), 1600)
   }
 })

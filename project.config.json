@@ -8,7 +8,7 @@
 	},
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
-	"appid": "touristappid",
+	"appid": "wx3c33d7e0542ecdd0",
 	"projectname": "togo",
 	"condition": {
 		"weapp": {

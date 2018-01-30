@@ -15,16 +15,16 @@
   <view class='left_side'>
     <image class='paiweisai' bindtap="bindViewTap"  src='/pages/images/btn_home_challenge.png'></image>
     <view></view>
+     <image class='item' bindtap="bindThings"  src='/pages/images/btn_home_item.png'></image>
      <image class='shop' src='/pages/images/btn_home_shop.png'></image>
       <image class='bank' src='/pages/images/btn_home_bank.png'></image>
        <image class='knowledge' src='/pages/images/btn_home_knowledge.png'></image>
-       <image class='item' bindtap="bindThings"  src='/pages/images/btn_home_item.png'></image>
   </view>
     <view class='right_side'>
     <image class='ranking'  bindtap="bindPaitap"  src='/pages/images/btn_home_ranking.png'></image>
-    <image class='ranking' src='/pages/images/btn_home_livematch.png'></image>
     <image class='topic' bindtap="bindTopic"  src='/pages/images/btn_home_topic.png'></image>
     <image class='setting' bindtap="bindClick" src='/pages/images/btn_home_setting.png'></image>
+    <image class='ranking' src='/pages/images/btn_home_livematch.png'></image>
   </view>
   <image class="dog_say_hi" src="/pages/images/dog_say_hi.gif"></image>
   <view class='showModel' animation="{{animationData5}}" data-flag="{{flag}}">

@@ -296,10 +296,12 @@ left:147rpx;
   height: 25rpx;
   width: 100%;
   position: relative;
-   transform:translate(-49.5%,-20%);  
-   left:49.5%; 
+   /* transform:translate(-49.5%,-20%);  
+   left:49.5%;  */
   top:20%; 
-  font-size: 2rpx;
+  font-size: 40rpx;
+  transform: scale(0);
+  font-weight: 600;
 }
 .top_bg{
   /* width:402rpx;
@@ -320,7 +322,8 @@ left:147rpx;
     height: 105rpx;
     background: #fff;
     border-radius: 50%;
-    transform: scale(0)
+    transform: scale(0);
+    margin-top:-38rpx;
 }
 .bg_progress_small{
   margin:12rpx auto;
@@ -402,7 +405,7 @@ left:147rpx;
 color:white;
 position:absolute;
 left:30%;
-top:28%;
+top:33%;
 transform:translate(-20%,-30%);
 opacity: 0;
 }
@@ -428,13 +431,20 @@ border-radius:20rpx 20rpx;
 position:relative;
 left:30rpx;
 }
-/* .pregress_title_topic_out{
-  width:60%;
-  height:500rpx;
-  position:absolute;
+ .pregress_title_topic_out{
+    width:60%; 
+   height:500rpx;  
+   position:absolute;
   left:150rpx;
-  top:600rpx;
-} */
+  top:600rpx; 
+  /* transform: scale(0); */
+  z-index: 0
+} 
+ .pregress_title_topic_out .pregress_title_topic{
+  top:0rpx; 
+    width:100%; 
+    left: 0;
+ }
 .pregress_title_in{
   width: 100%;
   height: 30%;
@@ -460,8 +470,9 @@ left:30rpx;
   width:60%;
   height:500rpx;
   position:absolute;
-  left:150rpx;
-  top:600rpx;
+   left:150rpx;
+  top:600rpx; 
+  z-index: 1
 }
 .pregress_title_topic text{
   width: 100%;

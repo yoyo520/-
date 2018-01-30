@@ -6,7 +6,8 @@
     "pages/panghangbang/panghangbang",
     "pages/person_info/person_info",
     "pages/things/things",
-    "pages/topic/topic"
+    "pages/topic/topic",
+    "pages/jieguo/jieguo"
   ],
   "window": {
     "backgroundTextStyle": "light",
